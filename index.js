@@ -1,3 +1,5 @@
+console.log('Node version: '+process.version);
+
 // we use old version of monk-middleware-handle-callback via lock file
 const monk = require('monk');
 const async = require('async');
