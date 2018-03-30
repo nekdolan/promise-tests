@@ -1,0 +1,27 @@
+{
+  "name": "promise-tests",
+  "version": "1.0.0",
+  "description": "just some tests with es6 promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekdolan/promise-tests.git"
+  },
+  "keywords": [
+    "es6",
+    "promise"
+  ],
+  "author": "nekdolan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekdolan/promise-tests/issues"
+  },
+  "homepage": "https://github.com/nekdolan/promise-tests#readme",
+  "dependencies": {
+    "async": "2.6.0",
+    "monk": "6.0.5"
+  }
+}
