@@ -30,6 +30,7 @@ Promise.prototype.then = (function () {
     }
   };
   return function (success, fail, error) {
+    this.error = this.error || error;
     let promise = then.call(this, fixCall(this, success), fixCall(this, fail));
     promise.error = this.error;
     return promise;
