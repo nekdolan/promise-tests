@@ -1,0 +1,66 @@
+Node version: v6.14.0
+(node:29332) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'test1' of undefined
+(node:29332) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'test4' of undefined
+(node:29332) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): Error: Callback was already called.
+(node:29332) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 4): TypeError: Cannot read property 'test2' of undefined
+/home/nekdolan/WebstormProjects/promise-tests/index.js:41
+      throw exception;
+      ^
+
+TypeError: Cannot read property 'test5' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:36:23
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+Process finished with exit code 1
+
+Node version: v7.10.1
+(node:42051) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'test1' of undefined
+(node:42051) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:42051) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'test2' of undefined
+(node:42051) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): Error: Callback was already called.
+(node:42051) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 4): TypeError: Cannot read property 'test4' of undefined
+/home/nekdolan/WebstormProjects/promise-tests/index.js:41
+      throw exception;
+      ^
+
+TypeError: Cannot read property 'test5' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:36:23
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+Process finished with exit code 1
+
+Node version: v8.10.0
+(node:46955) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'test1' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:11:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:46955) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:46955) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:46955) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'test2' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:17:22
+    at /home/nekdolan/WebstormProjects/promise-tests/node_modules/monk-middleware-handle-callback/index.js:13:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:46955) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:46955) UnhandledPromiseRejectionWarning: Error: Callback was already called.
+    at /home/nekdolan/WebstormProjects/promise-tests/node_modules/async/dist/async.js:955:32
+    at /home/nekdolan/WebstormProjects/promise-tests/node_modules/async/dist/async.js:3871:13
+    at /home/nekdolan/WebstormProjects/promise-tests/node_modules/monk-middleware-handle-callback/index.js:13:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:46955) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:46955) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'test4' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:28:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:46955) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+/home/nekdolan/WebstormProjects/promise-tests/index.js:41
+      throw exception;
+      ^
+
+TypeError: Cannot read property 'test5' of undefined
+    at /home/nekdolan/WebstormProjects/promise-tests/index.js:36:24
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+Process finished with exit code 1
